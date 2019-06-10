@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-complete{
+    background: white;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+}
+#submissions-chart {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+}
+body{
+    background:wheat;
+}
+.header{
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+    color: steelblue;
+    margin: 5px 20px;
+}
+
+input{
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button{
+    border-radius: 20%;
+    padding: 5px 10px;
+    background:whitesmoke  ;
+    color:steelblue;
+}
+.button:focus {
+    outline:none;
+}
+
+#search{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+#search-field{
+    border-color: rgb(46, 139, 214);
+    border-image: none;
+    position: relative;
+    padding-right: 20px;
+    margin-left: 20px;
+    border-radius: 7%;
+    padding: 5px;
+    font-variant: small-caps;
+    right: 20px; 
+    top: 3px;
+}
+#search-button{
+    border-color: rgb(46, 139, 214);
+    border-image: none;
+    color: white;
+    background: rgb(46, 139, 214);
+    padding: 15px;
+    position: relative;
+    right: 30px;
+}
